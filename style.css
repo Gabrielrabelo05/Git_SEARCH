@@ -70,10 +70,10 @@ input, ::placeholder {
     transition: 300ms;
 }
 #btn_lupa:hover {
-    background-color: #F34F29;
+    background-color: #76bcad;
     height: 40px;
     width: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 #icon_lupa {
@@ -89,7 +89,7 @@ input, ::placeholder {
     justify-content: center;
 }
 #container {
-    background-color: beige;
+    background-color:#76bcad;
     width: 580px;
     height: 400px;
     margin-top: 10px;
@@ -99,7 +99,7 @@ input, ::placeholder {
     justify-content: space-between;   
 } 
 #perfil {
-    background-color: #25c0b8;
+    background-color:#ade0db;
     width: 180px;
     height: 240px;
     border-radius: 10px;
@@ -120,10 +120,11 @@ input, ::placeholder {
     margin-top: 10px;
 }
 #reposit {
-    background-color: rgb(31, 170, 149);
+    background-color:#ade0db;
     width: 300px;
     min-height: 100px;
     border-radius: 10px;
+    overflow: auto;
 }
 #title_user {
     font-size: 15pt;
@@ -132,10 +133,24 @@ input, ::placeholder {
     justify-content: center;
 }
 #div-text {
-    margin-top: 8px;
+    margin-top: 15px;
 }
 #descrition {
     font-size: 10pt;
     font-family: 'Poppins', sans-serif;
-    margin: 8px;
+    margin: 10px;
+}
+#avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+ul {
+    padding: 40px;
+}
+li {
+    margin-top: 2px;
+}
+a {
+    color: black;
 }

@@ -14,21 +14,23 @@
         </div>
         <section id="sect_initial">
             <input id="input"  type="text" placeholder="Enter the GitHub name">
-            <button id="btn_lupa" onclick="click()">
+            <button id="btn_lupa" onclick="searchUser()">
                 <img  id="icon_lupa"  src="icons-lupa.svg" alt="">
             </button>
         </section>
         <section id="container">
             <div id="perfil">
                 <div id="div-img">
-                    <img id="img-perfil" src="menina.jpg" alt="">
+                    <img id="avatar" src="" alt="">
                 </div>
                 <div id="div-text">
                     <h1 id="title_user"></h1>
                     <p id="descrition"></p>
                 </div>
             </div>
-            <div id="reposit"></div>
+            <div id="reposit">
+                <ul id="repos"></ul>
+            </div>
         </section>
     </main>
    <script src="script.js"></script> 
