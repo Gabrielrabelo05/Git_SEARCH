@@ -146,11 +146,17 @@ input, ::placeholder {
     border-radius: 100px;
 }
 ul {
-    padding: 40px;
+    padding: 30px;
 }
 li {
     margin-top: 2px;
 }
 a {
     color: black;
+}
+h3 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
 }
